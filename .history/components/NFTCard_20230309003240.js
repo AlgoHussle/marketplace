@@ -10,11 +10,10 @@ const NFTCard = ({ data }) => {
       backgroundColor: COLORS.white,
       borderRadius: SIZES.font,
       marginBottom: SIZES.extraLarge,
-      ...SHADOWS.dark
+      ...SHADOWS.
     }}>
-      <Text>NFTCard</Text>
       </View>
   )
-}
 
-export default NFTCard
+
+}

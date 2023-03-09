@@ -1,20 +1,25 @@
-import { View, Image, Text } from 'react-native';
+import { View, Text , Image} from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import { COLORS, SHADOWS, SIZES, assets } from '../constants';
+import { COLORS, SIZES, SHADOWS } from '../constants';
+import assets from '../constants';
+
 
 const NFTCard = ({ data }) => {
   const navigation = useNavigation();
 
+
+const NFTCard = () => {
   return (
     <View style={{
       backgroundColor: COLORS.white,
       borderRadius: SIZES.font,
       marginBottom: SIZES.extraLarge,
-      ...SHADOWS.dark
+      margin: SIZES.base,
+      ...SHADOWS.dark,
     }}>
       <Text>NFTCard</Text>
-      </View>
+    </View>
   )
 }
-
+}
 export default NFTCard

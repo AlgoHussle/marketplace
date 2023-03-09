@@ -7,14 +7,9 @@ const NFTCard = ({ data }) => {
 
   return (
     <View style={{
-      backgroundColor: COLORS.white,
-      borderRadius: SIZES.font,
-      marginBottom: SIZES.extraLarge,
-      ...SHADOWS.dark
-    }}>
-      <Text>NFTCard</Text>
-      </View>
+      back
+    }}
   )
-}
 
-export default NFTCard
+
+}

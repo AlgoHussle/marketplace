@@ -16,5 +16,3 @@ const NFTCard = ({ data }) => {
       </View>
   )
 }
-
-export default NFTCard

@@ -15,6 +15,6 @@ const NFTCard = ({ data }) => {
       <Text>NFTCard</Text>
       </View>
   )
-}
 
-export default NFTCard
+
+}

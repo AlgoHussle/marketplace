@@ -6,15 +6,6 @@ const NFTCard = ({ data }) => {
   const navigation = useNavigation();
 
   return (
-    <View style={{
-      backgroundColor: COLORS.white,
-      borderRadius: SIZES.font,
-      marginBottom: SIZES.extraLarge,
-      ...SHADOWS.dark
-    }}>
-      <Text>NFTCard</Text>
-      </View>
-  )
-}
 
-export default NFTCard
+
+}

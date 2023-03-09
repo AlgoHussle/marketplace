@@ -12,9 +12,9 @@ const NFTCard = ({ data }) => {
       marginBottom: SIZES.extraLarge,
       ...SHADOWS.dark
     }}>
-      <Text>NFTCard</Text>
+      <Text></Text>
       </View>
   )
-}
 
-export default NFTCard
+
+}
