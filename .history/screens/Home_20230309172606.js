@@ -16,7 +16,6 @@ const Home = () => {
           keyExtractor={item => item.id}
           showsVerticalScrollIndicator={false}
           ListHeaderComponent={<HomeHeader />}
-          
           />
         </View>
 

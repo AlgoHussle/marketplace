@@ -6,7 +6,7 @@ import { NFTCard, HomeHeader, FocusedStatusBar } from '../components';
 const Home = () => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
-      <FocusedStatusBar background={COLORS.primary} />
+      <FocusedStatusBar background={COLORS.dark} />
 
       <View style={{ flex: 1 }}>
         <View style={{ zIndex: 0 }}>
@@ -16,7 +16,6 @@ const Home = () => {
           keyExtractor={item => item.id}
           showsVerticalScrollIndicator={false}
           ListHeaderComponent={<HomeHeader />}
-          
           />
         </View>
 

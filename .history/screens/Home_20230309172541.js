@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { View, SafeAreaView, FlatList, Text } from 'react-native';
+import React from 'react';
+
 import { COLORS, NFTData } from '../constants';
 import { NFTCard, HomeHeader, FocusedStatusBar } from '../components';
 
@@ -16,7 +18,6 @@ const Home = () => {
           keyExtractor={item => item.id}
           showsVerticalScrollIndicator={false}
           ListHeaderComponent={<HomeHeader />}
-          
           />
         </View>
 
