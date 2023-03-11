@@ -12,6 +12,7 @@ const HomeHeader = ({ onSearch }) => {
           flexDirection: 'row',
           alignItems: 'center',
           justifyContent: 'space-between',
+          
         }} 
         >
           <Image 

@@ -35,7 +35,7 @@ const HomeHeader = ({ onSearch }) => {
             </View>
         </View>
 
-
+        
         <View style={{ marginVertical: SIZES.font}}>
           <Text style={{ fontFamily: FONTS.regular, fontSize: SIZES.small, 
           color: COLORS.white}}>
@@ -44,8 +44,6 @@ const HomeHeader = ({ onSearch }) => {
               John 👋
               </Text>
           </Text>  
-
-
           <Text style={{ fontFamily: FONTS.bold, fontSize: SIZES.large,
             color: COLORS.white}}>
               Lets find a <Text style={{ fontFamily: FONTS.bold, fontSize: SIZES.large,

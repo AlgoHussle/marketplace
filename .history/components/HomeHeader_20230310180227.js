@@ -45,7 +45,7 @@ const HomeHeader = ({ onSearch }) => {
               </Text>
           </Text>  
 
-
+          
           <Text style={{ fontFamily: FONTS.bold, fontSize: SIZES.large,
             color: COLORS.white}}>
               Lets find a <Text style={{ fontFamily: FONTS.bold, fontSize: SIZES.large,

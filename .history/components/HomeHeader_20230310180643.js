@@ -81,6 +81,7 @@ const HomeHeader = ({ onSearch }) => {
             placeholder="Search Collections"
             placeholderTextColor={COLORS.gray}
             onChangeText={onSearch}
+            
           />
           </View>
           </View>

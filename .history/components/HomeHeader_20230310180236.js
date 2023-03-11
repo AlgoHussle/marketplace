@@ -53,6 +53,7 @@ const HomeHeader = ({ onSearch }) => {
               Masterpiece
               </Text>
           </Text>
+          
         </View>
 
         <View style={{ 
