@@ -9,8 +9,7 @@ const DetailsBid = ({ bid }) => {
       flexDirection: 'row',
       justifyContent: 'space-between',
       alignItems: 'center',
-      marginVertical: SIZES.base,
-      paddingHorizontal: SIZES.base * 2,
+      marginVertical
     }}>
       <Image 
       source={bid.image}

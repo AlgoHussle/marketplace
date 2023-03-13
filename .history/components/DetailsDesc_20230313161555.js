@@ -52,7 +52,7 @@ const DetailsDesc = ({ data }) => {
                 setReadMore(true);
               } else {
                 setText(data.description.slice(0, 100));
-                setReadMore(false);
+                setReadMore(false)
               }
               
             }}

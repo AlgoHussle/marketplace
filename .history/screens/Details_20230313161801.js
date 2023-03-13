@@ -68,15 +68,7 @@ const Details = ({ route, navigation }) => {
           <SubInfo data={data} />
           <View style={{ padding: SIZES.font }}>
             <DetailsDesc data={data} />
-            {data.bids.length > 0 && (
-              <Text style={{
-                fontSize: SIZES.font,
-                fontFamily: FONTS.semiBold,
-                color: COLORS.primary,
-              }}>
-                Current Bid 
-              </Text>
-            )}
+            {data.bids.length > 0 && (}
             {data.bids.length > 0 && (
               <Text style={{
                 fontSize: SIZES.font,

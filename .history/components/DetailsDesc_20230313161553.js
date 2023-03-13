@@ -51,8 +51,8 @@ const DetailsDesc = ({ data }) => {
                 setText(data.description);
                 setReadMore(true);
               } else {
-                setText(data.description.slice(0, 100));
-                setReadMore(false);
+                setText(data.description.slice(0, 100))
+                setReadMore(false)
               }
               
             }}

@@ -14,52 +14,39 @@ const DetailsDesc = ({ data }) => {
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
+
       }}>
         <NFTTitle 
-          title={data.title} 
-          subTitle={data.creator}
-          titleSize={SIZES.extraLarge}
-          subTitleSize={SIZES.font}
-          />
-
+        title={data.name}
+        subTitle={data.creator}
+        titleSize={SIZES.extraLarge}
+        subTitleSize={SIZES.font}
+        z
+        />
         <EthPrice price={data.price} />
       </View>
 
-      <View
-        style={{ marginVertical: SIZES.extraLarge * 1.5 }}>
+      <View style={{
+        marginVertical: SIZES.extraLarge * 1.5}}>
         <Text style={{
-          fontSize: SIZES.font,
           fontFamily: FONTS.semiBold,
+          fontSize: SIZES.font,
           color: COLORS.primary,
-        }}>description</Text>
+        }}>Description</Text>
         <View style={{ marginTop: SIZES.base }}>
+        <View style={{ 
+          fontSize: SIZES.small,
+          fontFamily: FONTS.regular,
+          color: COLORS.secondary,
+          lineHeight: SIZES.large
+        }}>
           <Text style={{
             fontSize: SIZES.small,
             fontFamily: FONTS.regular,
             color: COLORS.secondary,
             lineHeight: SIZES.large
-        }}>
-            {text}
-            {!readMore && '...'}
-            <Text style={{
-              fontSize: SIZES.small,
-              fontFamily: FONTS.semiBold,
-              color: COLORS.primary,
-            }}
-            onPress={() => {
-              if(!readMore) {
-                setText(data.description);
-                setReadMore(true);
-              } else {
-                setText(data.description.slice(0, 100));
-                setReadMore(false);
-              }
-              
-            }}
-            >
-              {readMore ? ' show less' : ' read more'}
-            </Text>
-          </Text>
+          }}>{data.description}</Text>
+        </View>
         </View>
       </View>
     </>

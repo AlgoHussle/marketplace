@@ -47,13 +47,7 @@ const DetailsDesc = ({ data }) => {
               color: COLORS.primary,
             }}
             onPress={() => {
-              if(!readMore) {
-                setText(data.description);
-                setReadMore(true);
-              } else {
-                setText(data.description.slice(0, 100));
-                setReadMore(false);
-              }
+              if(!)
               
             }}
             >

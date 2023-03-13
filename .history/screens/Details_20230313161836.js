@@ -70,11 +70,9 @@ const Details = ({ route, navigation }) => {
             <DetailsDesc data={data} />
             {data.bids.length > 0 && (
               <Text style={{
-                fontSize: SIZES.font,
-                fontFamily: FONTS.semiBold,
-                color: COLORS.primary,
+                
               }}>
-                Current Bid 
+                Current Bids
               </Text>
             )}
             {data.bids.length > 0 && (

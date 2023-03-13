@@ -2,16 +2,9 @@ import { View, Text, Image } from 'react-native';
 import { EthPrice } from './SubInfo';
 import { COLORS, SIZES, FONTS } from '../constants';
 
-const DetailsBid = ({ bid }) => {
+const DetailsBid = ({ bid, image }) => {
   return (
-    <View style={{
-      width: '100%',
-      flexDirection: 'row',
-      justifyContent: 'space-between',
-      alignItems: 'center',
-      marginVertical: SIZES.base,
-      paddingHorizontal: SIZES.base * 2,
-    }}>
+    <View>
       <Image 
       source={bid.image}
       resizeMode="contain"
@@ -28,15 +21,12 @@ const DetailsBid = ({ bid }) => {
         </Text>
         <Text style={{
           fontFamily: FONTS.semiBold,
-          fontSize: SIZES.small - 2,
-          color: COLORS.secondary,
-          marginTop: 3
+          fontSize: SIZES.small,
+          color: COLORS.primary
         }}>
-          {bid.date}
+          Bid placed by {bid.name}
         </Text>
       </View>
-
-      <EthPrice price={bid.price} />
     </View>
   )
 }
