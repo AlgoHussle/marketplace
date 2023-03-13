@@ -73,9 +73,8 @@ const Details = ({ route, navigation }) => {
               <Text style={{
                 fontSize: SIZES.font,
                 fontFamily: FONTS.semiBold,
-                color: COLORS.primary,
               }}>
-                Current Bids
+                {data.bids.length} bids
               </Text>
             )}
           </View>

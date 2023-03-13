@@ -75,7 +75,7 @@ const Details = ({ route, navigation }) => {
                 fontFamily: FONTS.semiBold,
                 color: COLORS.primary,
               }}>
-                Current Bids
+                bids
               </Text>
             )}
           </View>

@@ -70,12 +70,8 @@ const Details = ({ route, navigation }) => {
             <DetailsDesc data={data} />
             
             {data.bids.length > 0 && (
-              <Text style={{
-                fontSize: SIZES.font,
-                fontFamily: FONTS.semiBold,
-                color: COLORS.primary,
-              }}>
-                Current Bids
+              <Text>
+
               </Text>
             )}
           </View>

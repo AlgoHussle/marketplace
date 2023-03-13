@@ -27,26 +27,43 @@ const DetailsDesc = ({ data }) => {
       </View>
 
       <View style={{
-        marginVertical: SIZES.extraLarge * 1.5}}>
+        marginVertical: SIZES.extraLarge * 1.5
+      }}>
         <Text style={{
           fontFamily: FONTS.semiBold,
           fontSize: SIZES.font,
           color: COLORS.primary,
-        }}>Description</Text>
-        <View style={{ marginTop: SIZES.base }}>
+        }}>
+          Description
+        </Text>
         <View style={{ 
           fontSize: SIZES.small,
           fontFamily: FONTS.regular,
           color: COLORS.secondary,
           lineHeight: SIZES.large
         }}>
-          <Text style={{
-            fontSize: SIZES.small,
-            fontFamily: FONTS.regular,
-            color: COLORS.secondary,
-            lineHeight: SIZES.large
-          }}>{data.description}</Text>
-        </View>
+          <Text>
+            {text}
+            {!readMore && '...'}
+            <Text style={{
+              fontSize: SIZES.small,
+              fontFamily: FONTS.semiBold,
+              color: COLORS.primary,
+              lineHeight: SIZES.large
+            }}
+            onPress={() => {
+              if(!readMore) {
+                setText(data.description);
+                setReadMore(true);
+              } else {
+                setText(data.description.slice(0, 100));
+                setReadMore(false);
+              }
+            }}
+            >
+              {readMore ? ' Show Less' : ' Read More'}
+            </Text>
+          </Text>
         </View>
       </View>
     </>

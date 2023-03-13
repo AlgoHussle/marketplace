@@ -34,18 +34,14 @@ const DetailsDesc = ({ data }) => {
           color: COLORS.primary,
         }}>Description</Text>
         <View style={{ marginTop: SIZES.base }}>
-        <View style={{ 
+        <Text style={{ 
           fontSize: SIZES.small,
           fontFamily: FONTS.regular,
           color: COLORS.secondary,
           lineHeight: SIZES.large
         }}>
-          <Text style={{
-            fontSize: SIZES.small,
-            fontFamily: FONTS.regular,
-            color: COLORS.secondary,
-            lineHeight: SIZES.large
-          }}>{data.description}</Text>
+          </Text>
+          </Text>
         </View>
         </View>
       </View>

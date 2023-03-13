@@ -45,7 +45,12 @@ const DetailsDesc = ({ data }) => {
             fontFamily: FONTS.regular,
             color: COLORS.secondary,
             lineHeight: SIZES.large
-          }}>{data.description}</Text>
+          }}>
+            {data.description}
+          </Text>
+          
+
+          </Text>
         </View>
         </View>
       </View>

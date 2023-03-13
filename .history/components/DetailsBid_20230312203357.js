@@ -13,16 +13,9 @@ const DetailsBid = ({ bid }) => {
       
       <View>
         <Text style={{
-          fontFamily: FONTS.semiBold,
+          fontFamily: FONTS.bold,
           fontSize: SIZES.small,
-          color: COLORS.primary
-        }}>
-          Bid placed by {bid.name}
-        </Text>
-        <Text style={{
-          fontFamily: FONTS.semiBold,
-          fontSize: SIZES.small,
-          color: COLORS.primary
+          color: COLORS.white
         }}>
           Bid placed by {bid.name}
         </Text>

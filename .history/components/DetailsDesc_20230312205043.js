@@ -48,7 +48,7 @@ const DetailsDesc = ({ data }) => {
           }}>{data.description}</Text>
         </View>
         </View>
-      </View>
+      
     </>
   )
 }
