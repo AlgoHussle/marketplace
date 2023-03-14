@@ -13,9 +13,9 @@ const DetailsBid = ({ bid }) => {
       paddingHorizontal: SIZES.base * 2,
     }}>
       <Image 
-          source={bid.image}
-          resizeMode="contain"
-          style={{ width: 48, height: 48 }}
+        source={bid.image}
+      resizeMode="contain"
+      style={{ width: 48, height: 48 }}
       />
       
       <View>

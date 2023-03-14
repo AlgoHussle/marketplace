@@ -4,4 +4,4 @@ import { NFTData } from "./dummy";
 
 
 
-export { assets, COLORS, SHADOWS, SIZES, FONTS, NFTData, };
+export { assets, COLORS, SHADOWS, SIZES, FONTS, NFTData, Imag };
