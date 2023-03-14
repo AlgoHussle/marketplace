@@ -185,7 +185,10 @@ const NFTData = [
     creator: "3Landers",
     price: 18.25,
     description:
-      "3Landers is a collectible NFT project centered around community, adventure, and collaboration. Each 3Lander resides on the Ethereum blockchain as a unique, non-fungible token (NFT) comprised of a unique combination of traits and underlying “DNAs”. Holding a 3Landers NFT makes you a 3Lander — a member of a world and community that serves to build meaningful long-term connections through collaboration, adventure, building, creating, and dreaming!",
+      "3Landers is a collectible NFT project centered around community, adventure, and collaboration. Each 3Lander resides on the Ethereum blockchain as a unique, non-fungible token (NFT) comprised of a unique combination of traits and underlying “DNAs”. Holding a 3Landers NFT makes you a 3Lander — a member of a world and community that serves to build meaningful long-term connections through collaboration, adventure, building, creating, and dreaming!"
+
+
+      ",
     image: assets.nft07,
     bids: [],
   },
